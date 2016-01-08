@@ -1,0 +1,22 @@
+{
+  "name": "elm-type-extractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "elm.js",
+  "directories": {},
+  "watches": {
+    "test": "**/*.elm"
+  },
+  "scripts": {
+    "test": "elm-test TestRunner.elm",
+    "test.watch": "wr \"elm-test TestRunner.elm\" ./*.elm src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "elm-test": "0.16.0",
+    "wr": "1.3.1"
+  }
+}
